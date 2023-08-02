@@ -22,6 +22,38 @@
 
 **10. Applications:** DenseNet is used for image classification, object detection, and medical image analysis, among other computer vision tasks.
 
+## Image Augmentation Techniques:
+
+**1. Rotation:** Rotating an image by a certain angle (e.g., 90 degrees) to create variations in orientation.
+
+**2. Flip (Horizontal/Vertical):** Flipping an image horizontally or vertically to generate mirror images.
+
+**3. Crop and Resize:** Cropping a region of interest from an image and resizing it to the original dimensions or a different size.
+
+**4. Translation:** Shifting an image along the x and y axes to simulate different viewpoints.
+
+**5. Scaling:** Enlarging or shrinking an image to create variations in size.
+
+**6. Shearing:** Distorting an image by shifting one side in a specific direction while keeping the opposite side fixed.
+
+**7. Brightness and Contrast Adjustment:** Modifying the brightness and contrast of an image to simulate different lighting conditions.
+
+**8. Noise Addition:** Introducing random noise (e.g., Gaussian noise) to simulate real-world imperfections.
+
+**9 .Color Channel Shift:** Changing the intensity of color channels (RGB) to create color variations.
+
+**10. Elastic Transformations:** Applying small local deformations to an image to mimic elastic behavior.
+
+**11. Cutout:** Randomly masking out square regions of an image to encourage the model to focus on other features.
+
+**12. PCA Color Augmentation:** Applying principal component analysis (PCA) to color channels for subtle color changes.
+
+**13. Style Transfer:** Transferring the artistic style of one image to another while preserving content.
+
+**14. Random Erasing:** Randomly masking rectangular regions of an image to encourage robustness.
+
+**15. Mixup:** Blending two or more images to create a new image with combined features.
+
 ## CIFAR-10
 
 **1. Dataset:** CIFAR-10 is a widely used benchmark dataset in computer vision. It consists of 60,000 32x32 color images across 10 classes, with 6,000 images per class.
